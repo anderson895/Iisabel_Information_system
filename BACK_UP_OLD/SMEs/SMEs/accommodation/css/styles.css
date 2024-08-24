@@ -1,0 +1,28 @@
+.image-main-container {
+  position: relative;
+}
+
+.btn-add-new-img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 12px;
+}
+
+.img-container {
+  position: relative;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.199);
+}
+
+.img-container img {
+  max-height: 250px;
+  max-width: 250px;
+}
+
+.img-container button {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  font-size: 12px;
+}

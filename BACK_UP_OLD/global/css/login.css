@@ -1,0 +1,14 @@
+.frm-login {
+  max-width: 400px;
+}
+
+.loginPasswordContainer button {
+  position: absolute !important;
+  top: 0;
+  right: 0;
+}
+
+.login-logo {
+  height: 100px;
+  width: 100px;
+}

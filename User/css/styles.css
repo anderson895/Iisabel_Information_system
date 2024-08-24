@@ -1,0 +1,160 @@
+body {
+  overflow-x: hidden;
+}
+
+
+main {
+  position: absolute;
+  top: 80px;
+  left: 200px;
+  width: calc(100% - 200px);
+  height: calc(100vh - 80px);
+  overflow-y: auto;
+}
+
+
+/* Mobile view styles */
+@media (max-width: 767px) {
+  main {
+    position: static; /* O pwede ring relative depende sa layout */
+    width: 100%;
+    height: auto;
+    margin: 0 auto; /* Center the main element */
+    padding: 0 10px; /* Optional: add padding to avoid content touching the edges */
+    box-sizing: border-box; /* Ensure padding and border are included in the element's total width */
+    overflow-x: hidden; /* Hide horizontal overflow */
+  }
+}
+
+.modal img {
+  height: 40px;
+  width: 40px;
+}
+
+.modal-lg-img {
+  height: 200px !important;
+  width: 200px !important;
+}
+
+.top-nav {
+  height: 80px;
+}
+
+.top-nav a img {
+  height: 80px;
+  width: 80px;
+}
+
+.navs-a-container a {
+  color: white;
+  text-decoration: none;
+}
+
+.search-container {
+  position: relative;
+}
+
+.search-container input {
+  width: 500px;
+  height: 45px;
+  padding-left: 40px;
+}
+
+.search-container button {
+  position: absolute;
+  top: 0;
+  height: 96%;
+  margin: 1px;
+  width: 40px;
+}
+
+/*  */
+
+.side-nav {
+  width: 200px;
+  height: calc(100vh - 80px);
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+  box-shadow: 1px 1px 3px rgb(163, 163, 163);
+}
+
+.side-nav a {
+  margin: 5px;
+  margin-top: 0px;
+  border-radius: 5px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  color: black;
+  text-decoration: none;
+  padding-left: 10px;
+}
+
+.side-nav a i {
+  margin-right: 5px;
+}
+
+.side-nav a:hover {
+  background-color: #198754;
+  color: white;
+}
+
+.side-nav-active {
+  background-color: #198754;
+  color: white !important;
+}
+
+/* Contacts */
+.hotline-container {
+  width: 250px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  overflow: auto;
+}
+/* End of Contacts */
+
+/* News */
+.news-container {
+  max-width: 600px;
+}
+
+.main-image-container img {
+  height: 200px;
+  width: 200px;
+}
+
+.mini-images-button-container button img {
+  height: 30px;
+  width: 30px;
+}
+/* End of News */
+
+/* Tourist Spot */
+.btnSpotContainer img {
+  height: 100px;
+  width: 100px;
+}
+/* End of Tourist Spot */
+
+/* Accom */
+.btnAccomContainer img {
+  height: 100px;
+  width: 100px;
+}
+/* End of Accom */
+
+/* Resto */
+.btnRestoContainer img {
+  height: 100px;
+  width: 100px;
+}
+/* End of Resto */
+
+/* Seller */
+.btnSellerContainer img {
+  height: 100px;
+  width: 100px;
+}
+/* End of Seller */

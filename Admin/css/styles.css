@@ -1,0 +1,29 @@
+.btn-add-new {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+.img-in-modal {
+  height: 300px;
+  width: 300px;
+  margin: auto;
+}
+
+/* QR */
+.qr-container {
+  width: 250px;
+  height: 250px;
+  display: flex;
+  align-items: center;
+}
+
+.qr-container img {
+  height: 200px;
+  width: 200px;
+}
+
+/* Dashboard */
+#chartContainer {
+  margin-top: 100px !important;
+}

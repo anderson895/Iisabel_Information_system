@@ -1,0 +1,24 @@
+.input-container {
+  position: relative;
+  margin-top: 20px;
+}
+
+.input-container label {
+  background-color: white;
+  position: absolute;
+  top: -8px;
+  left: 13px;
+  font-size: 13px;
+  letter-spacing: 1px;
+  padding: 0px 10px;
+  pointer-events: none;
+}
+
+.alert {
+  position: fixed;
+  top: 10px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  pointer-events: none;
+  z-index: 100000;
+}
